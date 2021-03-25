@@ -89,12 +89,12 @@ int main (int argc, char **argv)
 
     if (argc != 2)
     {
-        write(1, "Error: argument\n", 17);
+        write(1, "Error: argument\n", 16);
         return(1);
     }
     if (!(file = fopen(argv[1], "r")) || parseo(file))
     {
-        write(1, "Error: Operation file corrupted\n", 33);
+        write(1, "Error: Operation file corrupted\n", 32);
         return(1);
     }
     fclose(file);
