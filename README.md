@@ -12,7 +12,7 @@ Para el mini_paint.c ejecuta:
 
 Sí todo funciona correctamente, veras un output como la siguiente imagen:
 
-
+![alt text](https://github.com/abello-r/42-ExamRank-03/blob/master/srcs/test.png)
 
 
 
